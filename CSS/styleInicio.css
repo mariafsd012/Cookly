@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inicio {
+    background-color: #053879;
+    overflow-x: hidden;
+}
+
+.imagem {
+    background-color: #053879;
+}
+
+.textos-e-btn {
+    background-color: #053879;
+    padding: 20px;
+}
+
+.inicio h1 {
+    font-family: 'Fredoka One', cursive;
+    color: aliceblue;
+    font-size: 60px; /* Ajustado para não quebrar tanto */
+    margin-bottom: 15px;
+}
+
+.inicio h2 {
+    font-family: 'Fredoka One', cursive;
+    color: #4889d8;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+/* Estilo do Botão Customizado */
+.btn-custom {
+    width: 150px;
+    height: 50px;
+    background-color: #4889d8;
+    color: aliceblue;
+    font-family: 'Fredoka One', cursive;
+    font-size: 18px;
+    border-radius: 45px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #4779c4;
+    color: aliceblue;
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgb(50, 67, 114);
+}

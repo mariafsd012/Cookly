@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#053879, #264779)
+}
+
+.login {
+    background-color: #e1e6ec;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: 50px auto; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); 
+    transition: 0.3s; 
+}
+
+.login h1{
+    font-family: 'Fredoka One', cursive;
+    color: #053879;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login a {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    width: 100%;
+    text-align: right;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    width: 100%;             /* Garante que a div ocupe a largura total do card */
+}
+
+.botoes button {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #053879;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botoes button:hover {
+    background-color: #264779;
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    margin: 7px 0;
+}
+
+.esqueci {
+    display: block;
+    color: #7f8c8d;
+    text-decoration: none;
+    transition: 0.3s;
+    display: block;
+    width: 100%;
+    text-align: center;       /* Ou 'center', se preferir */
+    margin-top: 10px;        /* Espaço em relação ao botão */
+    margin-bottom: 20px;     /* Espaço em relação à linha do 'OU' */
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+
+.esqueci:hover {
+    color: #264779;
+    text-decoration: underline;
+}
+
+.cadastro {
+    display: block;
+    text-align: right;
+    font-size: 0.85rem;
+    color: #7f8c8d;
+    text-decoration: none;
+    margin-bottom: 25px;
+    transition: 0.3s;
+    width: 100%;             /* Ocupa a largura total do card */
+    text-align: center;      /* Centraliza o texto */
+    white-space: nowrap;     /* Força a ficar em uma linha só */
+    margin-top: 20px;        /* Dá um espaço em relação aos ícones */
+    font-size: 0.9rem;
+}
+
+.cadastro a {
+    display: inline;         /* Garante que o link fique grudado no texto */
+}
+
+.cadastro:hover {
+    color: #264779;
+    text-decoration: underline;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+    transition: 0.3s;
+    background-color: #f9f9f9;
+}
+
+input:hover{
+    border-color: #053879;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.ou {
+    display: flex;
+    align-items: center;
+}
+
+.linha {
+    flex: 1;
+    height: 1px;
+    background-color: #000000;
+}
+
+.ou span {
+    margin: 0 10px;
+    color: #999;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.logo_redes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo_redes i {
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #555;
+}
+
+.logo_redes i:hover {
+    background-color: #f0f0f0;
+    color: #053879;
+    border-color: #053879;
+}
+
+
+
+/* Responsividade */
+@media (max-width: 480px) {
+    .login {
+        padding: 30px 20px;
+    }
+}
+

@@ -4,17 +4,15 @@
     box-sizing: border-box;
 }
 
+
+body{
+    background: linear-gradient(#053879, #264779)
+}
 .inicio {
-    background-color: #053879;
     overflow-x: hidden;
 }
 
-.imagem {
-    background-color: #053879;
-}
-
 .textos-e-btn {
-    background-color: #053879;
     padding: 20px;
 }
 

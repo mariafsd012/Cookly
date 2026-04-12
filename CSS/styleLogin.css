@@ -47,8 +47,8 @@ body{
 
 .botoes {
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    width: 100%;             /* Garante que a div ocupe a largura total do card */
+    justify-content: center; 
+    width: 100%;             
 }
 
 .botoes button {
@@ -76,9 +76,9 @@ body{
     transition: 0.3s;
     display: block;
     width: 100%;
-    text-align: center;       /* Ou 'center', se preferir */
-    margin-top: 10px;        /* Espaço em relação ao botão */
-    margin-bottom: 20px;     /* Espaço em relação à linha do 'OU' */
+    text-align: center;       
+    margin-top: 10px;        
+    margin-bottom: 20px;     
     text-decoration: none;
     font-size: 0.85rem;
 }
@@ -96,15 +96,15 @@ body{
     text-decoration: none;
     margin-bottom: 25px;
     transition: 0.3s;
-    width: 100%;             /* Ocupa a largura total do card */
-    text-align: center;      /* Centraliza o texto */
-    white-space: nowrap;     /* Força a ficar em uma linha só */
-    margin-top: 20px;        /* Dá um espaço em relação aos ícones */
+    width: 100%;            
+    text-align: center;      
+    white-space: nowrap;     
+    margin-top: 20px;        
     font-size: 0.9rem;
 }
 
 .cadastro a {
-    display: inline;         /* Garante que o link fique grudado no texto */
+    display: inline;         
 }
 
 .cadastro:hover {
@@ -174,8 +174,6 @@ input:hover{
 }
 
 
-
-/* Responsividade */
 @media (max-width: 480px) {
     .login {
         padding: 30px 20px;

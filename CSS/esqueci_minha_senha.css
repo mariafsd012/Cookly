@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 body{
     margin: 0;
     padding: 0;
@@ -16,25 +15,41 @@ body{
     background: linear-gradient(#053879, #264779)
 }
 
-.container{
+.inicio{
     background-color: #e1e6ec;
-    display: flex;
-    flex-direction: column;
-    font-family: Fredoka One, cursive;
-    padding: 20px;
     border-radius: 10px;
-    width: 300px;
-    margin: 50px auto;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-    transition: 0.3s;
+    padding: 20px;
+    width: 350px;
+    margin: 50px auto; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); 
+    transition: 0.3s;    
 }
 
-.titulo{
+.titulo h1{
     font-family: 'Fredoka One', cursive;
     color: #053879;
-    font-size: 15px;
+    font-size: 30px;
     margin-bottom: 20px;
     text-align: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+.formulario p{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
 }
 
 input {
@@ -46,8 +61,6 @@ input {
     outline: none;
     transition: 0.3s;
     background-color: #f9f9f9;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
 }
 
 input:hover{
@@ -82,7 +95,7 @@ input:hover{
     margin: 7px 0;
 }
 
-.voltar-ao-login {
+.voltar {
     display: block;
     text-align: right;
     font-size: 0.85rem;
@@ -93,22 +106,20 @@ input:hover{
     width: 100%;            
     text-align: center;      
     white-space: nowrap;     
-    margin-top: 20px;        
+    margin-top: 8px;        
     font-size: 0.9rem;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-.voltar-ao-login p{
-        display: inline;  
+.voltar a{
+    display: inline;
+    text-decoration: none;
+    color: #7f8c8d;
 }
 
-.voltar-ao-login:hover{
+.voltar a:hover {
     color: #264779;
     text-decoration: underline;
 }
-
-
-
 
 @media (max-width: 480px) {
     .login {
